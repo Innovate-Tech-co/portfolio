@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    line-height: 1.6;
+    padding-top: 80px; /* Adding padding to avoid content overlap with the fixed nav */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffa6003f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo img {
+    height: 50px; /* Adjust logo size */
+    width: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+.Heading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 50px 0; /* Space around the heading */
+    font-size: 10vh;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #ffa600; /* A color that matches the theme */
+    margin-top: 0;
+}
+.content{
+    display: grid;
+    gap: 10px;
+}
+.content p{
+    font-size: larger;
+}
+#about{
+    display: flex;
+    gap: 30vh;
+    justify-content: center;
+}
+.about p {
+    margin: 0.5rem 0;
+}
+
+.skills .skill-bar {
+    margin: 1rem 0;
+}
+
+.skills .skill-bar span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.skills .progress {
+    height: 10px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .progress div {
+    height: 10px;
+    background: #ffa500;
+}
+.hero-box{
+    /* background:#333; */
+    box-shadow: 10px 10px #333 ;
+    height: 50vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    height:100%;
+    width: 100%;
+    /* box-shadow: 10px 10px #333; */
+}
+.our-team{
+    color: #ffa500;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+}
+.detail p{
+    margin: 10px;
+}
+.detail-1 img{
+    height: 50vh;
+    width: 45vh;
+    box-shadow: 10px 10px #333;
+}
+.detail-2 img{
+    height: 50vh;
+    width: 45vh;
+    box-shadow: 10px 10px #333;
+}
+.detail-3 img{
+    height: 50vh;
+    width: 45vh;
+    box-shadow: 10px 10px #333;
+}

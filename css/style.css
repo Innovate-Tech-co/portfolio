@@ -1,0 +1,309 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: #8355013f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(2px);
+    z-index: 1000;
+}
+
+nav .logo img {
+    height: 50px; /* Adjust logo size */
+    width: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+.container {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem 0.5rem 0 0;
+    border: 2px solid #ffa500;
+    background: transparent;
+    color: #ffa500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero-text .btn:hover {
+    background: #ffa500;
+    color: #000;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section {
+    margin: 3rem 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffa500;
+}
+
+.about p {
+    margin: 0.5rem 0;
+}
+
+.skills .skill-bar {
+    margin: 1rem 0;
+}
+
+.skills .skill-bar span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.skills .progress {
+    height: 10px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .progress div {
+    height: 10px;
+    background: #ffa500;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav img {
+    height: 40px;
+    width: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+.container {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem 0.5rem 0 0;
+    border: 2px solid #ffa500;
+    background: transparent;
+    color: #ffa500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero-text .btn:hover {
+    background: #ffa500;
+    color: #000;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section {
+    margin: 3rem 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffa500;
+}
+
+.about p {
+    margin: 0.5rem 0;
+}
+
+.skills .skill-bar {
+    margin: 1rem 0;
+}
+
+.skills .skill-bar span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.skills .progress {
+    height: 10px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .progress div {
+    height: 10px;
+    background: #ffa500;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+}
+
+/* Additional Styles for Team Section (if added) */
+#team {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#team h2 {
+    color: #ffa500;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#team p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+}
